@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Non focused states -->
+    <item
+        android:left="2dp" android:right="4dp"
+        android:state_focused="false"
+        android:state_selected="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/group_off" />
+    <item
+        android:left="2dp" android:right="4dp"
+        android:state_focused="false"
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/group_on" />
+    <!-- Focused states -->
+    <item
+        android:left="2dp" android:right="4dp"
+        android:state_focused="true"
+        android:state_selected="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/group_on" />
+    <item
+        android:left="2dp" android:right="4dp"
+        android:state_focused="true"
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/group_on" />
+    <!-- Pressed -->
+    <item
+        android:left="2dp" android:right="4dp"
+        android:state_pressed="true"
+        android:drawable="@drawable/group_on" />
+
+</selector><!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/drawable/ic_tabbar_meeting.xml -->

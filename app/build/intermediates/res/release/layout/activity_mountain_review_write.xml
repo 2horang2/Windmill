@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="windmill.windmill.MountainReviewWrite">
+
+    <ScrollView
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:background="@color/white"
+                        android:id="@+id/mountain_write_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="제목을 적어주세요"
+                        android:padding="10dp" />
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/shadow"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:gravity="top"
+                        android:background="@color/white"
+                        android:id="@+id/mountain_write_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:hint="산은 어떠셨나요?"
+                        android:padding="10dp" />
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:layout_above="@+id/rr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/shadow"/>
+        <RelativeLayout
+            android:id="@+id/rr"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mountain_write_img"
+                android:layout_margin="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src ="@drawable/camera"/>
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_gui5_sel2"
+                android:text="완료"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/activity_mountain_review_write.xml -->

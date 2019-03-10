@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:dropdown="http://schemas.android.com/tools"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:id="@+id/sort_hot"
+            android:background="@drawable/button_gui2"
+            android:textColor="@color/main"
+
+            android:layout_height="wrap_content"
+            android:text="HOT" />
+
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/sort_hot"
+            android:id="@+id/sort_new"
+            android:background="@drawable/button_gui3"
+            android:textColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:text="NEW" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="70dp"
+            android:id="@+id/sort_filter"
+            android:background="@drawable/button_gui5"
+            android:textColor="@color/main_dark1"
+
+            android:layout_height="wrap_content"
+            android:text="필터" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/aaa"
+        android:layout_below="@+id/aa"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow"/>
+
+
+
+
+
+
+</RelativeLayout>

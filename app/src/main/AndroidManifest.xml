@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="windmill.windmill" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <permission
+        android:name="windmill.windmill.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="windmill.windmill.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+
+    <application
+        android:name=".UILApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/myTheme" >
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.appmaker.gcmtest" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".WidgetProvider"
+            android:label="산따라 바람따라" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <!-- linking up xml file of appwidget-provider to AppWidgetProvider -->
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widgetinfo" />
+        </receiver>
+
+        <service
+            android:name=".WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name=".Intro2Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_mountine_detail"
+            android:theme="@style/nLiveoDrawer" />
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Tmap_exp"
+            android:label="@string/title_activity_tmap_exp" />
+        <activity
+            android:name=".JoinActivity"
+            android:label="@string/title_activity_join"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MeetingDetailActivity"
+            android:label="@string/title_activity_meeting_detail" >
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data
+                android:host="@string/kakaolink_host"
+                android:scheme="@string/kakao_scheme" />
+        </activity>
+        <activity
+            android:name=".gcm_exp"
+            android:label="@string/title_activity_gcm_exp" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.appmaker.gcmtest" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".GcmIntentService" />
+
+        <activity
+            android:name=".chat_exp"
+            android:label="@string/title_activity_chat_exp" />
+        <activity
+            android:name=".MeetingBoard"
+            android:label="@string/title_activity_meeting_board" />
+        <activity
+            android:name=".MeetingBoardDetail"
+            android:label="@string/title_activity_meeting_board_detail"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MeetingBoardWrite"
+            android:label="@string/title_activity_meeting_board_write" />
+        <activity
+            android:name="ui.activity.SettingsActivity"
+            android:label="설정" />
+        <activity
+            android:name=".MountainWrite"
+            android:label="@string/title_activity_mountain_write"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SettingsProfileUpdate"
+            android:label="@string/title_activity_settings_profile_update" />
+        <activity
+            android:name=".ReviewDetailActivity"
+            android:label="@string/title_activity_review_detail"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MountainReviewWrite"
+            android:label="@string/title_activity_mountain_review_write" />
+        <activity
+            android:name=".MeetingWrite"
+            android:label="@string/title_activity_meeting_write" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+        <activity
+            android:name=".MeetingBoardUpdate"
+            android:label="@string/title_activity_meeting_board_update"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MeetingUpdate"
+            android:label="@string/title_activity_meeting_update" />
+        <activity
+            android:name=".MountainReviewUpdate"
+            android:label="@string/title_activity_mountain_review_update" />
+        <activity
+            android:name=".MountainBoardDetail"
+            android:label="@string/title_activity_mountain_board_detail" />
+        <activity
+            android:name=".MountainBoard"
+            android:label="@string/title_activity_mountain_board" >
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data
+                android:host="@string/kakaolink_host"
+                android:scheme="@string/kakao_scheme" />
+        </activity>
+        <activity
+            android:name=".SettingNotify"
+            android:label="@string/title_activity_setting_notify" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".MountanLikeActivity"
+            android:label="@string/title_activity_mountan_like" />
+        <activity
+            android:name=".IntroActivity"
+            android:label="@string/title_activity_intro2" />
+        <activity
+            android:name=".MeetingGallery"
+            android:label="@string/title_activity_meeting_gallery" />
+        <activity
+            android:name=".MeetingFilter"
+            android:label="@string/title_activity_meeting_filter" />
+        <activity
+            android:name=".MountainFilter"
+            android:label="@string/title_activity_mountain_filter" />
+        <activity
+            android:name=".MeetingGalleryDate"
+            android:label="@string/title_activity_meeting_gallery_date" />
+        <activity
+            android:name=".MeetingSettingMember"
+            android:label="@string/title_activity_meeting_setting_member" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:label="@string/title_activity_image_view" />
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name=".MessageWrite"
+            android:label="@string/title_activity_message_write" >
+        </activity>
+        <activity
+            android:name=".MessageRead"
+            android:label="@string/title_activity_message_read" >
+        </activity>
+        <activity
+            android:name=".BillingPoint"
+            android:label="@string/title_activity_billing_point" >
+        </activity>
+        <activity
+            android:name=".MountainIntroduce"
+            android:label="@string/title_activity_mountain_introduce" >
+        </activity>
+        <activity
+            android:name=".MountainIntroduceRead"
+            android:label="@string/title_activity_mountain_introduce_read" >
+        </activity>
+        <activity
+            android:name=".MountainIntroduceWrite"
+            android:label="@string/title_activity_mountain_introduce_write" >
+        </activity>
+        <activity
+            android:name=".Main23Activity"
+            android:label="@string/title_activity_main23" >
+        </activity>
+    </application>
+
+</manifest>

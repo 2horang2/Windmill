@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/dropdown_background_pressed" android:state_pressed="true"/> <!-- pressed -->
+    <item android:drawable="@drawable/dropdown_background_pressed" android:state_focused="true"/> <!-- focused -->
+    <item android:drawable="@drawable/dropdown_background_pressed" android:state_selected="true"/> <!-- selected -->
+    <item android:drawable="@drawable/dropdown_background_default" />
+
+</selector><!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/drawable/dropdown_background.xml -->

@@ -1,0 +1,116 @@
+<resources>
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tab_min_height</item>
+        <item name="tabIndicatorColor">@color/main</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+
+
+    </style>
+
+    <style name="TranslucentActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="ActionBar_temp" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/tttttttttttt</item>
+    </style>
+
+
+    <style name="tttttttttttt" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/main</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#FF4081</item>
+        <item name="colorControlHighlight">#FF4081</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:color">#ffffff</item>
+    </style>
+
+    <style name="Theme.App.Base2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#FF4081</item>
+        <item name="colorControlHighlight">#FF4081</item>
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:color">#000000</item>
+    </style>
+<!--
+
+                android:textColor="@color/text_color"
+                android:textColorHighlight="@color/text_color"
+                android:textColorHint="@color/text_color"
+                android:drawableRight="@drawable/ic_add_white_24dp" -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+
+    </style>
+
+
+
+
+    <declare-styleable name="DropDown">
+        <attr name="arrowImage" format="integer" />
+        <attr name="listBackgroundColor" format="integer" />
+        <attr name="listDividerColor" format="integer" />
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="titleColor2" format="color" />
+        <attr name="titleBackground" format="integer" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+   <style name="Widget.MaterialSheetFab.Sheet" parent="">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="cardBackgroundColor">@color/transparent</item>
+    <item name="cardElevation">@dimen/fab_sheet_elevation</item>
+    <item name="cardMaxElevation">@dimen/fab_sheet_elevation</item>
+    </style>
+
+    <style name="Widget.MaterialSheetFab.Sheet.Write" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardBackgroundColor">@color/transparent</item>
+        <item name="cardElevation">@dimen/fab_sheet_elevation</item>
+        <item name="cardMaxElevation">@dimen/fab_sheet_elevation</item>
+    </style>
+
+    <style name="Widget.MaterialSheetFab.Fab" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:src">@drawable/search2_w</item>
+        <item name="fabSize">normal</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <style name="Widget.MaterialSheetFab.Fab.Write" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:src">@drawable/write_w</item>
+        <item name="fabSize">normal</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <style name="TextAppearance.MaterialSheetFab.Sheet.Item" parent="">
+        <item name="android:layout_width">@dimen/sheet_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sheet_item_spacing</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">@dimen/sheet_item_textsize</item>
+        <item name="android:textColor">@color/text_black_87</item>
+        <item name="android:drawablePadding">@dimen/sheet_item_image_spacing</item>
+    </style>
+
+</resources>

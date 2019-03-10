@@ -1,0 +1,312 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btns"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rr"
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+
+
+
+                <ImageView
+                    android:id="@+id/meeting_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:scaleType="centerCrop" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/title_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/rr"
+                android:background="@color/dark_gray"
+                android:padding="@dimen/spacing_large">
+
+                <TextView
+                    android:id="@+id/meeting_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="New Text\n안녕하세요"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/meeting_link"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/share2"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/title_wrapper"
+                android:background="#FFF"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/meeting_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="aaaaaaaaaaaaaaaaa"
+                    android:textColor="#000000" />
+
+                <View
+
+                    android:id="@+id/aa"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/meeting_text"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shadow" />
+
+                <RelativeLayout
+                    android:id="@+id/sub_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa">
+
+                    <RelativeLayout
+                        android:id="@+id/leader_rr"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true">
+
+                        <TextView
+                            android:id="@+id/leader_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="대장아이디"
+                            android:textColor="@color/main_dark1" />
+
+                        <ImageView
+                            android:id="@+id/leader_img"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_below="@+id/leader_id"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/user" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/leader_rr"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+
+                                android:id="@+id/meeting_mountain_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:drawableLeft="@drawable/group_off"
+                                android:gravity="center_vertical"
+                                android:padding="4dp"
+                                android:text="  소래산"
+
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/member_list"
+                                android:layout_marginTop="5dp"
+                                android:textSize="13sp"
+                                android:padding="6dp"
+                                android:gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/button_gui5_sel3"
+                                android:text="멤버보기"
+                                android:textColor="#FFF"
+                                android:layout_alignParentRight="true"/>
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginLeft="8dp"
+                            android:id="@+id/meeting_mountain_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/meeting_mountain_name"
+                            android:drawableLeft="@drawable/mountain_off"
+                            android:gravity="center_vertical"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="    2015.07.22"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/meeting_mountain_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/meeting_mountain_add"
+                            android:drawableLeft="@drawable/time"
+                            android:gravity="center_vertical"
+                            android:padding="4dp"
+                            android:singleLine="true"
+                            android:text="    2015.07.22"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/sub_text"
+                    android:background="@drawable/shadow" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/btns"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shadow" />
+
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/meeting_join"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="가입하기"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/meeting_board"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="게시판"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/meeting_chat"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="채팅방"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

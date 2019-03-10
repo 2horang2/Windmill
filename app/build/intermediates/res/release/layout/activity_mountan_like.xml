@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#04000000"
+    android:layout_height="match_parent"
+    tools:context="ui.fragment.MainFragment4">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways">
+        </FrameLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ListView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="2dp"
+        android:id="@+id/my_mountain_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
+<!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/activity_mountan_like.xml -->

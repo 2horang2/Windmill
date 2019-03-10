@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/writing_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+
+    tools:context="windmill.windmill.MeetingBoardDetail">
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/rr_temp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FFF"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                    android:background="#027736"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerCrop"
+                    app:riv_border_color="@android:color/white"
+                    app:riv_border_width="2dp"
+                    app:riv_oval="true" />
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:layout_margin="7dp"
+                    android:text="체험마을"
+                    android:textColor="#FFF"
+                    android:textSize="13sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:textSize="17sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toLeftOf="@+id/chatroom_member"
+                    android:text="이름"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="주소"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/name"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/writing_text2"
+            android:background="@drawable/shadow" />
+
+
+        <ScrollView
+
+            android:id="@+id/writing_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rr_temp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:id="@+id/aa"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/meeting_text"
+                    android:background="@drawable/shadow" />
+
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/sub_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/leader_rr"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/phh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+
+                                android:id="@+id/ph"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:gravity="center_vertical"
+                                android:padding="4dp"
+                                android:text="  소래산"
+
+                                android:textColor="#000000" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/urll"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+
+                                android:id="@+id/url"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:gravity="center_vertical"
+                                android:padding="4dp"
+                                android:text="  소래산"
+
+                                android:textColor="#000000" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:id="@+id/rrrrrr"
+                    android:layout_below="@+id/sub_text"
+                    android:background="@drawable/shadow" />
+
+
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rrrrrr"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text=""
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

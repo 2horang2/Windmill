@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#80000000"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/spacing_medium"
+        android:padding="@dimen/spacing_medium"
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@color/transparent"
+        android:id="@+id/exit_btn1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/pager"
+        android:layout_alignEnd="@+id/pager" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@color/transparent"
+        android:id="@+id/exit_btn2"
+        android:layout_below="@+id/pager"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignStart="@+id/pager"></LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/list_meeting_vp.xml -->

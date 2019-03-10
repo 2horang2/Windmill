@@ -1,0 +1,75 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.etsy.android.grid.StaggeredGridView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/channel_recipe_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:column_count="2"
+            app:item_margin="8dp" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Your FAB implementation -->
+        <data.models.Fab
+            android:id="@+id/fab"
+
+            style="@style/Widget.MaterialSheetFab.Fab.Write"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <!-- Your FAB implementation -->
+        <data.models.Fab
+            android:id="@+id/fab2"
+            style="@style/Widget.MaterialSheetFab.Fab"
+            android:layout_above="@+id/fab"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+
+
+        <!-- Circular reveal container for the sheet -->
+        <io.codetail.widget.RevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end|bottom"
+            android:orientation="vertical">
+
+            <!-- Sheet that contains your items -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/fab_sheet"
+                style="@style/Widget.MaterialSheetFab.Sheet">
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </io.codetail.widget.RevealLinearLayout>
+    </RelativeLayout>
+
+
+    <!-- Overlay that dims the screen -->
+
+
+    <!-- Circular reveal container for the sheet -->
+
+
+</android.support.v4.widget.DrawerLayout>

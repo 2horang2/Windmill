@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="windmill.windmill.MountainBoard">
+    <item android:id="@+id/mountain_write_menu" android:title="리뷰 작성"
+        android:icon="@drawable/write"
+        app:showAsAction="always"  />
+
+</menu>

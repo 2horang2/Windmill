@@ -1,0 +1,8 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 127 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 2918 0 -1
+ciMethod java/lang/String <init> ([CII)V 3273 1 576 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1185 1 148 0 -1
+ciMethod 

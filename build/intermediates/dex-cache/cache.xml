@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.1.1\ab1142c5adfa474e7494cba19fd9fc6e73207960\stetho-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ab1142c5adfa474e7494cba19fd9fc6e73207960">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\stetho-1.1.1-d30bbb7d8082ef36c214fbbe38850d9ca8f8fc3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\gcm-a64e97ae563485517444ba6aac5c561558e50ddb.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.github.asyl.animation\arcanimator\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="31dbe885ef6a9d6a88412750e85784f60b95cb90">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-07668f4b00e200cc7fdccee468df641765dde5e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.prolificinteractive\material-calendarview\0.7.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="119ecc3da24fea49a2da4baf1377e5f326a89d62">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-e24c69e82b0097ffc80b9d160d6f852f94f93778.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\libs\jericho-html-3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e754c5b5c3c31e8406c17342c2bbd0d79a895f24">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\jericho-html-3.2-e4fcd2e92726a56725a16485afd8168d7084d8ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\libs\com.skp.Tmap_1.0.32.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="83078f0a85669fc3850f40f2f259ab6d63dd0dc6">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\com.skp.Tmap_1.0.32-95a01c0c9cd29b164e61a7001ffff3aad6322de0.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.github.fengdai\alertdialogpro-theme-material\0.2.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="87973a148a7113f9a4eef799f22d0341d150ea33">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-65907295c061ae12d951f3bbc386d7658120beed.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.github.fengdai\alertdialogpro-core\0.2.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e06255ce1023c60f103bbca1e8fe6981c849058d">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-558cda52dc68a6b275c0413c387a2108dac41164.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.kakao.sdk\kakaolink\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6593019cc69b94d7ac9f4e19fe6f41661975d7ab">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-fcad7d885a07e7177145a3673720fb187aad9ea4.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-1b99d5e6c70f7790c607b1724f5773ebf8549849.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\palette-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3aba1c188fea5ee83ebbcb458be29d1cc0ef483">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-02997887830eac5828e87c20a9cdda394aa31d58.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.joanzapata.android\android-iconify\1.0.9\27817b0ae26d4fa788711f1f75aaa45d76901722\android-iconify-1.0.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="27817b0ae26d4fa788711f1f75aaa45d76901722">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.9-ec802172e284591d8102b825408a531cedce558b.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-77eaf91b3bdcc68fd74b460639bd866c58afeec4.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\commons-cli-1.2-cc7e056d0a95b058fbca828cf67a48f18b6f1ff9.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.5.3\a8b8a6dfc8a17890e4c7ff8aed810763d265b68b\jackson-core-2.5.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8b8a6dfc8a17890e4c7ff8aed810763d265b68b">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\jackson-core-2.5.3-67b9576f8c137b96e22aa7cec78eaa84049da73d.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-bea5cfc894d85fdeb92c021c7ba9ef2955550cc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\libs\gcm-server.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a598197ed7192e3f67b00168c55b3f22c8e3435e">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\gcm-server-2c3b060c802f9227b88af71254ea10066ddee3f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\br.com.liveo\navigationdrawer-material\2.3.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a12b9a66f66b514c854e1e66d69e8c46854728f7">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-52fef7559fe559c0d3c14aed97997627a7e13bc6.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.google.auto.value\auto-value\1.0-rc1\95f1e38ae958b9b380846886913b1974065be454\auto-value-1.0-rc1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95f1e38ae958b9b380846886913b1974065be454">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\auto-value-1.0-rc1-80f6f3a9f32de826466295d58f9f274fa0d2a1ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2abde49a8d53539fa902ab5b8d29698023b262dd">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-c302d5236b0954f730f064d4fe36d1b1e35a87d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.kakao.sdk\util\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7bf15eb5aa658545af001d3412fd2075192c7b70">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-42427c8a1235e5806a36a5776e43f6489e000b7c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\it.neokree\MaterialNavigationDrawer\1.3.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0640bc34b0f25196f82fe1e707a437bd4a405933">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-52b43d6f88724e369a07f50b1f4b980d112c519c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.gordonwong\material-sheet-fab\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef0889ac4d806b6f47de8f86346accd7ae8e9342">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-64454eeec65f5233465aa0958b1510b0ab90745d.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-80a1aa4f0b7d5d92eda8f6093a1f68b5bac3496c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android-no-op\1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4efe9814ec1d5fbbe146fbfb01895deaa321f488">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\release\classes-4124f53c66f1e3f9d6ba514d315ff1758d264a3c.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-dd83fbfca29d0e9d770ceb4cae0074e966ca6007.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.24.0\42dab493b8f74b164e082f281480c9d493ff89da\rxandroid-0.24.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\rxandroid-0.24.0-3f7ba9b0f71b6267ea92ad70d35ad733f89af8fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-5df30c07c2fd8a5710d50bfb1455cf2db0e07640.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-b018e19f09a2d94f47e3cd383238577166b71aed.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\javax.inject-1-c4be8f8d2443f82265b5d06fcd7033390c0241dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.4\a607b0e12d2de769dc219e00b60a9b3d9e730d\rxjava-1.0.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00a607b0e12d2de769dc219e00b60a9b3d9e730d">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\rxjava-1.0.4-5f91ae8e811f73c5a61b75197678a7e011f9ebdd.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.3\c5399b18a672f7973c8a9b9d6b731a3a36e590cc\leakcanary-analyzer-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5399b18a672f7973c8a9b9d6b731a3a36e590cc">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\leakcanary-analyzer-1.3-34c8a163a3f0cd630c377790b3bbb73f5afff566.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-8f56975787c2f972cff9595aba4f0cb839566e35.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\4.1\ad568238ee36a820bd6c6806807e8a14ea34684d\asm-4.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ad568238ee36a820bd6c6806807e8a14ea34684d">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\asm-4.1-e9fcc4b6ad82cb77ceded91136f332eabc2ba0fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.github.ganfra\material-spinner\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a973f67796996adb991bd6e63a11b2b88a571219">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-d99d7c17abd80440b97c275aca6d457dd9938944.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\library-2.4.0-504f286091f239eb699bc76512936a4475a50196.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\16.0\aca09d2e5e8416bf91550e72281958e35460be52\guava-16.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aca09d2e5e8416bf91550e72281958e35460be52">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\guava-16.0-ad3987d58bc2a9e21682b27b4dfa86080fd93a21.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-c46aff1f45c85c6dd34129a7bd03012cdad597a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f4e7adebf49e683db82fb6efac2caaf3d768b8d4">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-e65425236b1c3b1f857356fe7bdfd61e8700c4b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.5.3\c37875ff66127d93e5f672708cb2dcc14c8232ab\jackson-databind-2.5.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c37875ff66127d93e5f672708cb2dcc14c8232ab">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\jackson-databind-2.5.3-92bed537b78550f35ff4053cf0cd32927d8e056e.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.google.auto.service\auto-service\1.0-rc1\f4f5ad098bf9a3c4fc95c15214c4ea014c38ac39\auto-service-1.0-rc1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f4f5ad098bf9a3c4fc95c15214c4ea014c38ac39">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\auto-service-1.0-rc1-89d08733f6c7829ff363492d773ce5a9ac921694.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.5.0\a2a55a3375bc1cef830ca426d68d2ea22961190e\jackson-annotations-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.5.0-5578bd4b328ba807eefe2a17d16a9c006d30dcaa.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.yqritc\recyclerview-flexibledivider\1.2.5\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c1fd5da5cc5a4bdf1d6c7c82fe0f60f2980236a8">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-d5e288577bb211802a937f7d7c8a6ec7605c6aeb.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.3\632482a61ad24b7ec864072945d221369f9a606\leakcanary-watcher-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632482a61ad24b7ec864072945d221369f9a606">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\leakcanary-watcher-1.3-6ab6ea7bfd27b56c5b89b252c626cdf33cc612bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\jsr305-2.0.1-aeb7f3e6721e1bd0be0980a2c77de784498d213d.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.0\da7ba0ee1d30edd955da276cdf01d3d7cb24aedc\dagger-2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="da7ba0ee1d30edd955da276cdf01d3d7cb24aedc">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\dagger-2.0-884e6d82d36c73a14276f323a1c3ab7eff7d1da8.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.balysv\material-ripple\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-985a817e191ae27ae101052ef9381b0c70182e64.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\1.1\b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635\haha-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\haha-1.1-0c71e4c91e2434735162864c08faacb632fde16b.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-e0784155deee8012c7cf5999d0ccac689fd925c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\exploded-aar\com.etsy.android.grid\library\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="C:\Users\jhm1283\Desktop\android\Windmill3_new_ver12 (8)\app\build\intermediates\pre-dexed\debug\classes-e15472ed00398e701b51fd166ba7a71a197cb543.jar" />
+    </item>
+
+</items>

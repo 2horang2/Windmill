@@ -1,0 +1,162 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:id="@+id/aa"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:id="@+id/sort_hot"
+                android:background="@drawable/sort_left"
+                android:textColor="@color/main"
+
+                android:layout_height="wrap_content"
+                android:text="HOT" />
+
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/sort_hot"
+                android:id="@+id/sort_new"
+                android:background="@drawable/sort_right_on"
+                android:textColor="#FFF"
+
+                android:layout_height="wrap_content"
+                android:text="NEW" />
+
+            <Button
+                android:layout_toLeftOf="@+id/sort_search"
+                android:layout_width="70dp"
+                android:id="@+id/sort_filter"
+                android:background="@drawable/item_point"
+                android:textColor="@color/main_dark1"
+                android:layout_height="wrap_content"
+                android:text="필터" />
+
+            <ImageView
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                android:layout_alignParentRight="true"
+                android:layout_width="70dp"
+                android:id="@+id/sort_search"
+                android:src="@drawable/search2"
+                android:textColor="@color/main_dark1"
+
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </RelativeLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_below="@+id/aa"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/black"
+
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:theme="@style/Theme.App.Base2">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:drawableRight="@drawable/search2"
+                android:layout_width="match_parent"
+                android:id="@+id/editText3"
+                android:lines="1"
+                android:layout_height="wrap_content"
+                android:hint="검색어를 입력해주세요"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <View
+            android:id="@+id/aaa"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/shadow"/>
+
+
+        <LinearLayout
+            android:layout_below="@+id/aaa"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/scroll2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:clipToPadding="false"
+                android:paddingBottom="@dimen/spacing_medium"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Your FAB implementation -->
+        <data.models.Fab
+            android:id="@+id/fab"
+            style="@style/Widget.MaterialSheetFab.Fab.Write"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+
+        <!-- Circular reveal container for the sheet -->
+        <io.codetail.widget.RevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end|bottom"
+            android:orientation="vertical">
+
+            <!-- Sheet that contains your items -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/fab_sheet"
+                android:background="@color/transparent"
+                style="@style/Widget.MaterialSheetFab.Sheet.Write">
+
+
+            </android.support.v7.widget.CardView>
+
+        </io.codetail.widget.RevealLinearLayout>
+    </RelativeLayout>
+
+
+    <!-- Overlay that dims the screen -->
+
+
+    <!-- Circular reveal container for the sheet -->
+
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/fragment_main2_temp.xml -->

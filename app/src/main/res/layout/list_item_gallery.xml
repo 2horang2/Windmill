@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rr"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/oval_gui2">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:riv_corner_radius="20dp"
+            android:id="@+id/img"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/recipe" />
+        <View
+            android:layout_below="@+id/img"
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <TextView
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소래산"
+            android:layout_margin="5dp"
+            android:id="@+id/mountain"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignBottom="@+id/img"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

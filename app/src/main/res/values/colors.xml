@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_color">#80D32F2F</color>
+<color name="text_color">#ffffff</color>
+    <color name="icon_color">#e66067</color>
+    <color name="blue">#303F9F</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_teal">#009688</color>
+    <color name="green_teal2">#009633</color>
+    <color name="purple">#673AB7</color>
+    <color name="red">#F44336</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lime">#CDDC39</color>
+    <color name="orange">#FFCC80</color>
+    <color name="lightorange">#ffffff</color>
+    <color name="deep_orange">#FFA726</color>
+    <color name="lightgray">#fafaf5</color>
+    <color name="black">#484432</color>
+    <color name="dark_gray">#7b7769</color>
+    <color name="gray">#a3a090</color>
+    <color name="border">#dbdbce</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#33000000</color>
+
+    <color name="main">#e03641</color>
+    <color name="main_light">#eb464f</color>
+    <color name="main_light2">#e0878a</color>
+    <color name="main_light3">#ffc4c6</color>
+
+    <color name="main_dark1">#b30b13</color>
+    <color name="white">#ffffff</color>
+
+    <color name="base">@color/lightgray</color>
+    <color name="accent">@color/main_dark1</color>
+    <color name="primary">@color/main</color>
+    <color name="primary_dark">@color/main_light</color>
+    <color name="status_bar">@color/main</color>
+    <color name="navigation_bar">@android:color/black</color>
+
+    <color name="text_color_primary">@color/black</color>
+    <color name="text_color_secondary">@color/dark_gray</color>
+    <color name="text_color_tertiary">@color/gray</color>
+    <color name="text_color_hint">@color/border</color>
+
+    <color name="pressed_color_ripple">#55000000</color>
+    <color name="tab_title">@android:color/white</color>
+    <color name="spinner_base_color">#ff0000</color>
+
+
+    <color name="card_bg">#EBEBEB</color>
+    <color name="card_outline">#D0D0CE</color>
+
+    <color name="dropdown_list_background_green">#ececec</color>
+    <color name="dropdown_list_divider_blue">#ffffff</color>
+
+    <color name="theme_primary">#00BCD4</color>
+    <color name="theme_primary_dark">#0097A7</color>
+    <color name="theme_primary_dark2">#006064</color>
+    <color name="theme_accent">#FFEB3B</color>
+
+    <color name="background_card">#fff</color>
+    <color name="background_snackbar">#323232</color>
+
+    <color name="text_black_87">#de000000</color>
+    <color name="text_white_87">#deFFFFFF</color>
+
+    <array name="note_neutral_colors">
+        <item>#9E9E9E</item>
+        <item>#455A64</item>
+        <item>#607D8B</item>
+    </array>
+
+    <array name="note_accent_colors">
+        <item>#039BE5</item>
+        <item>#3D51B3</item>
+        <item>#689f38</item>
+        <item>#FD7044</item>
+    </array>
+
+    <color name="coral">#f08080</color>
+</resources>

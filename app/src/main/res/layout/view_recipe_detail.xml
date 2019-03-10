@@ -1,0 +1,306 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rr"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+
+
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/dark_gray"
+        android:layout_below="@+id/rr"
+        android:id="@+id/title_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="@dimen/spacing_large">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="산이름"
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="주소"
+            android:id="@+id/updated_at_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:textSize="@dimen/text_size_xsmall" />
+
+        <ImageView
+            android:layout_gravity="bottom"
+            android:src="@drawable/like"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tmp1"
+            android:layout_alignTop="@+id/updated_at_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/like"
+            android:layout_alignTop="@+id/tmp1"
+            android:layout_toRightOf="@+id/tmp1"
+            android:layout_toEndOf="@+id/tmp1" />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/dislike"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tmp2"
+            android:layout_alignTop="@+id/like"
+            android:layout_toRightOf="@+id/like"
+            android:layout_toEndOf="@+id/like"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/hate"
+            android:layout_alignBaseline="@+id/updated_at_text"
+            android:layout_alignBottom="@+id/updated_at_text"
+            android:layout_alignTop="@+id/tmp2"
+            android:layout_toRightOf="@+id/tmp2"
+            android:layout_toEndOf="@+id/tmp2" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/share2"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/title_wrapper"
+        android:layout_above="@+id/btns">
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_large"
+        android:textSize="@dimen/text_size_medium" />
+    </ScrollView>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/btns"
+        android:background="@drawable/shadow" />
+
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentBottom="true">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="즐겨\n찾기"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="주변\n정보"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="지도"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="모임\n추천"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#F6F6F6"
+            android:bottomLeftRadius="8dp"
+            android:bottomRightRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="8dp"
+            app:mrl_rippleAlpha="0.2"
+            app:mrl_rippleColor="@color/main_dark1"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true">
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F6F6F6"
+                android:text="리뷰"
+                android:textSize="16sp" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <!--
+     <components.RecipeUserView
+         android:id="@+id/recipe_user"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/clickable" />
+         -->
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#04000000"
+    android:layout_height="440dp">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="댓글"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <ListView
+        android:dividerHeight="8dp"
+        android:divider="@color/transparent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"/>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ed"
+            android:layout_marginRight="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.App.Base2">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ed2"
+                android:lines="1"
+                android:drawableRight="@drawable/ic_search_white_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="검색어를 입력해주세요"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:background="@color/btn_color"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/o"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="입력"/>
+    </RelativeLayout>
+
+</RelativeLayout>

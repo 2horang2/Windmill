@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:layout_alignParentLeft="true"
+            android:textSize="16sp"
+            android:id="@+id/cate_name"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:layout_marginLeft="30dp"
+           android:layout_toRightOf="@+id/cate_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="(0)"
+            android:id="@+id/cate_count"/>
+
+        <CheckBox
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cate_check"
+            android:checked="false" />
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/input_category_item.xml -->

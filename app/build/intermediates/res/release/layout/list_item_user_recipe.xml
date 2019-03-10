@@ -1,0 +1,97 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="#FFF"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/recipe" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_marginBottom="18dp"
+            android:paddingLeft="10dp"
+            android:background="#FFF"
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout">
+
+            <ImageView
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:id="@+id/img_tmp"
+                android:src="@drawable/time"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_toRightOf="@+id/img_tmp"
+                android:id="@+id/meeting_mountain_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="2015.07.22" />
+
+
+            <ImageView
+                android:layout_toRightOf="@+id/meeting_mountain_state"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/img_tmp2"
+                android:src="@drawable/group_off"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_toRightOf="@+id/img_tmp2"
+                android:id="@+id/meeting_mountain_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="4dp"
+                android:text="소래산" />
+
+
+
+            <TextView
+                android:paddingLeft="4dp"
+                android:textSize="17sp"
+                android:layout_below="@+id/meeting_mountain_state"
+                android:id="@+id/meeting_title"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="제목제목"
+                android:textColor="#000000"/>
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+<!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/list_item_user_recipe.xml -->

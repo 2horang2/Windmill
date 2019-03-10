@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:id="@+id/mainView"
+
+
+    android:layout_width="fill_parent"
+
+
+    android:layout_height="fill_parent"
+
+
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+
+
+        android:id="@+id/mainRelativeLayout"
+
+
+        android:layout_width="fill_parent"
+
+
+        android:layout_height="fill_parent"
+
+
+        android:layout_weight="1"
+
+
+        android:background="@android:color/white"
+
+
+        android:paddingTop="1dip">
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/activity_tmap_exp.xml -->

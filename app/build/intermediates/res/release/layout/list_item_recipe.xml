@@ -1,0 +1,105 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_medium"
+    android:padding="@dimen/spacing_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/recipe_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="#FFF"  />
+
+        <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginTop="156dp"
+            android:scaleType="centerCrop"
+            app:riv_border_color="@android:color/white"
+            app:riv_border_width="2dp"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/user_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipe_image"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_toEndOf="@id/user_image"
+            android:text="안녕하세요요"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xsmall" />
+
+        <ImageView
+            android:background="@drawable/like"
+            android:id="@+id/tmp1"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_below="@id/recipe_image"
+            android:layout_toLeftOf="@+id/like"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xxxsmall" />
+
+        <TextView
+            android:layout_marginTop="@dimen/spacing_small"
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipe_image"
+            android:layout_toLeftOf="@+id/tmp2"
+            android:text="5"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xxxsmall" />
+
+        <ImageView
+            android:background="@drawable/dislike"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:id="@+id/tmp2"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/recipe_image"
+            android:layout_toLeftOf="@+id/hate"
+            android:text="싫"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xxxsmall" />
+
+        <TextView
+            android:layout_marginRight="3dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:id="@+id/hate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipe_image"
+            android:text="0"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_xxxsmall" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_image"
+            android:padding="@dimen/spacing_medium"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+<!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/list_item_recipe.xml -->

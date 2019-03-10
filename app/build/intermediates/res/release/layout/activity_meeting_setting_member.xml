@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="windmill.windmill.MeetingSettingMember">
+
+    <View
+        android:id="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/filter"
+        android:layout_margin="2dp"
+        android:background="@drawable/shadow" />
+
+    <ListView
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/aaa"
+        android:id="@+id/m_lv"
+        android:divider="@color/transparent"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/jhm1283/Desktop/android/Windmill3_new_ver12%20(8)/app/src/main/res/layout/activity_meeting_setting_member.xml -->

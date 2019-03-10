@@ -1,0 +1,223 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="windmill.windmill.MountainWrite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+           >
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:focusable="false"
+                    android:drawableRight="@drawable/right2"
+                    android:background="@drawable/edittext_re"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="사진을 선택해주세요"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_img" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:focusable="false"
+                    android:drawableRight="@drawable/right2"
+                    android:background="@drawable/edittext_re"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="모임 날짜를 선택해주세요"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_date" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <EditText
+                    android:drawableLeft="@drawable/like"
+                    android:background="@drawable/edittext_re"
+                    android:padding="10dp"
+                    android:hint="태그"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_category" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:drawableLeft="@drawable/mountain2"
+                    android:background="@drawable/edittext_re"
+                    android:padding="10dp"
+                    android:hint="산 이름"
+                    android:textColorHint="@color/main_dark1"
+                    android:textColor="@color/main_dark1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_mountain" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textColorHint="#d5d5d5"
+                    android:drawableLeft="@drawable/like"
+                    android:background="@drawable/edittext_re"
+                    android:padding="10dp"
+                    android:hint="주소"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_sub" />
+
+                <TextView
+                    android:layout_margin="2dp"
+                    android:textColor="#7a7a7a"
+                    android:text="주소를 정확히 적어주세요"
+                    android:layout_below="@+id/meeting_write_sub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textColorHint="#d5d5d5"
+                    android:drawableLeft="@drawable/like"
+                    android:background="@drawable/edittext_re"
+                    android:padding="10dp"
+                    android:hint="모임 이름을 적어주세요"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_title" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="-2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textColorHint="#d5d5d5"
+                    android:gravity="top"
+                    android:background="@drawable/edittext_re2"
+                    android:padding="15dp"
+                    android:hint="모임을 설명해주세요"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/meeting_write_text" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textColorHint="#d5d5d5"
+                    android:drawableLeft="@drawable/like"
+                    android:background="@drawable/edittext_re"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:hint="인원 수 ( 2~50 )"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/meeting_write_member" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_gui5_sel2"
+                        android:textColor="#FFF"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="확인"
+                        android:id="@+id/ok"/>
+
+                    <Button
+                        android:background="@drawable/item_point"
+                        android:textSize="16sp"
+                        android:textColor="@color/main_dark1"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="취소"
+                        android:id="@+id/cancle"
+                        android:layout_alignTop="@+id/button5"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
